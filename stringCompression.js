@@ -3,8 +3,8 @@ function cmprs(string){
   let indx = -2;
   
   for(let char in string){
-  	if(cmpr[indx] !== string.charAt(char)){
-    	indx = indx + 2;
+    if(cmpr[indx] !== string.charAt(char)){
+      indx = indx + 2;
       cmpr[indx] = string.charAt(char);
       cmpr[indx + 1] = 1;
     } else {
