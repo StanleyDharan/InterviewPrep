@@ -1,5 +1,5 @@
 function cmprs(string){
-	let cmpr = [];
+  let cmpr = [];
   let indx = -2;
   
   for(let char in string){
